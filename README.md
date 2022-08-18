@@ -1,6 +1,8 @@
 # CMPG323 OVERVIEW <32134452>
 The overview of Agile and Scrum Project (Project 1), the main repository
 
+The branching that used is the Gitflow branching, which uses two main branches to record the projects's history, throughout the course of the semester. The main branch is an intergration branch for features (uses features branches multiple primary branches).
+
 in each project there has to be a git.ignore file, because a git.ignore file will help with ignoring files and lines that the owner does not want in the repository (could be files of a certain type, eg files ending in .py, which are python files). Git.ignore files are used to ignore blank lines in the files inside the repository, they are also there to ignore patterns, like line 1 above has # and it will be ignored when reading the README file. They only work inside of their directory.  
 
 The storage of credentials 
