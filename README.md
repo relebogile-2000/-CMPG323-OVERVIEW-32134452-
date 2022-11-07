@@ -70,3 +70,12 @@ On this page the user can click on the + button to add/ create a new devices, af
 On this page, the details that have just been entered/ loaded to the database of the webapp will be displayed. Then they will be given the options to: edit what they have just entered, to delete, or to go back to the list.
 
 BUT SINCE WE WILL BE USING AUTOMATION, ALL OF THE ABOVE WILL BE DONE AUTOMATICALLY 
+
+CMPG-323-Project-5---32134452
+REPORTING AND MONITORING PROJECT
+
+Created a new calculated column, called "FullCategory Details" on the SubCategory table, which willbe used to show which category does the SubCategory fall Under so that the summary can be quicker and easier.
+
+Created a new measure, called "Operating Devices" on the Devices table, which we use to show the user the currently working devices, and if there are those that need repairing, they will also be shown on the visual of the Report.
+
+Also did data cleaning, by changing the column names CategoryID and ZoneID on the Devices table to Category Name and Zone Name, because the contents of the columns were the names rather than the IDs of the other tables. Also changed the data types of most of the columns to text from being just any type.
