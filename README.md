@@ -76,6 +76,16 @@ REPORTING AND MONITORING PROJECT
 
 Created a new calculated column, called "FullCategory Details" on the SubCategory table, which willbe used to show which category does the SubCategory fall Under so that the summary can be quicker and easier.
 
-Created a new measure, called "Operating Devices" on the Devices table, which we use to show the user the currently working devices, and if there are those that need repairing, they will also be shown on the visual of the Report.
+Created a new measure, called "Number of Devices per Status" on the Devices table, which we use to show the user the number of currently working devices, and if there are those that need repairing, they will also be shown on the visual of the Repor, it also shows the number of broken devices, tose that have been stopped/have stopped working and those that need maintanance.
 
 Also did data cleaning, by changing the column names CategoryID and ZoneID on the Devices table to Category Name and Zone Name, because the contents of the columns were the names rather than the IDs of the other tables. Also changed the data types of most of the columns to text from being just any type.
+
+Created a visual that allows the user to monitor devices per category by using a stacked graph Created a visual that allows the user to monitor devices per zone by using a stacked graph Created a visual that allows the user to monitor online versus offline devices used abar graph
+
+to show how many categories of devices have been created, I used the flip card , on one side of the card it shows how many devices have been created , and on the other side it shows how many categories of the devices have been created in the database/ data table. The user has to click on the card so that it can flip and show the other side.
+
+to show how many devices have been registered overtime, i used the waterfall chart, which shows how many devices have been registered (used devices and date of installation)
+
+to show how many zones contain registered devices, also used the waterfall chart as it shows the devices that are registred each by each and then the last column it shows the total.
+
+added a slicer to show the status of the devices
