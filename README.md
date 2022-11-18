@@ -9,6 +9,13 @@ The storage of credentials
 if the credentials and sensitive information is saved in the cache, the cache only keeps the credentials in the memory for a certain amount of time . The credentials and sensitive information are not stored on the disk of the device, and they are removed/ deleted from the cache after about 10 - 15 minutes.
 if the credentials and sensitive information are in store mode then they are saved on the disk and they will not be removed / deleted until the owner changes the credentials themselves on the GitHost.
 
+# CMPG323-Project3
+
+A WEB APP THAT HAS DETAILS ABOUT DEVICES, ZONES AND CATEGORIES.
+IT IS A WEB APP THAT KEEPS TRACK OF THE INFORMATION IN THE DATABASE, EACH ONE OF (DEVICES, ZONES AND CATEGORIES) WILL HAVE A TAB THAT WILL LEAD THE USER TO EACH OF THE PAGES OF THE WEBAPP. THEN ON EACH OF THE PAGES, THERE IS INFORMATION ABOUT THE DETAILS OF THE DEVICES.
+THE ZONES TAB - SHOWS THE ZONES AND THE DESCRIPTION OF THE ZONES THAT THE DEVICES FALL UNDER
+THE CATEGORY TAB/ PAGE - SHOWS THE CATEGORIES (EG WHAT TYPE IS DEVI, IF IT IS A SENSORY DEVICE OR WORKS IN AOTHER TYPE OF WAY)
+THE DEVICE TAB / PAGE SHOWS ALL THE INFORMATION ABOUT THE DEVICES, COMBINED WITH THE TYPE OF ZONE AND THE CATEGORY TYPE
 
 # CMPG323-PROJECT4-32134452
 TEST AND AUTOMATION 
